@@ -1,0 +1,61 @@
+{
+	"name": "Ethereal Dusk",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1e2124", // Sfondo scuro
+		"editor.foreground": "#EDEDED", // Testo generale
+		"editorLineNumber.foreground": "#424549", // Colore numeri di linea
+		"editorCursor.foreground": "#7289da", // Colore cursore
+		"editor.selectionBackground": "#424549", // Sfondo della selezione
+		"editor.inactiveSelectionBackground": "#282b3027", // Sfondo della selezione inattiva
+		"editorLineNumber.activeForeground": "#7289da", // Numero di linea attiva
+		"activityBar.background": "#282b30", // Barra delle attività
+		"sideBar.background": "#282b30", // Sfondo della barra laterale
+		"tab.activeBackground": "#36393e", // Sfondo tab attiva
+		"tab.inactiveBackground": "#1e2124", // Sfondo tab inattiva
+		"titleBar.activeBackground": "#282b30", // Sfondo barra del titolo attiva
+		"titleBar.inactiveBackground": "#1e2124", // Sfondo barra del titolo inattiva
+		"statusBar.background": "#424549", // Sfondo barra di stato
+		"statusBar.foreground": "#EDEDED" // Testo barra di stato
+	},
+	"tokenColors": [
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#7289da", // Colore commenti
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#66CC99" // Colore stringhe
+			}
+		},
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "#EDEDED" // Colore variabili
+			}
+		},
+		{
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#7289da", // Colore parole chiave
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "function",
+			"settings": {
+				"foreground": "#42A5F5" // Colore delle funzioni
+			}
+		},
+		{
+			"scope": "type",
+			"settings": {
+				"foreground": "#FFCB6B" // Colore dei tipi
+			}
+		}
+	]
+}
